@@ -1,0 +1,9 @@
+f) ¿Puede ver el archivo tp2_1_2.cpp? ¿Por qué?
+    No puedo ver el archivo tp2_1_2.cpp porque el mismo no se guardo en la rama master, y al estar yo ubicado en esta, ese archivo no existe.
+
+i) Cambie al Branch master y vuelva a ejecutar el comando gitk –all ¿Qué
+diferencias nota?
+    Noto que, en la esquina inferior derecha, en la rama master aparecen el .gitignore y el tp2_1_1.cpp y en la rama Opcion_2 aparece solo el archivo tp2_1_2.cpp.
+
+- Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+    Puedo notar que en la esquina superior izquierda ahora aarecen las ramas Opcion_2 y master como si fueran una sola, ademas, aparece abajo lo que hay en el repositorio remoto.
