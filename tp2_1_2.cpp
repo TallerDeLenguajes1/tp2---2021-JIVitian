@@ -11,7 +11,8 @@ int main(){
 	//double ** mt = (double **) malloc(sizeof(int) * N * M);
 	///...
 
-	/*double * mt = (double *) malloc(N * M * sizeof(double));
+	/*
+	double * mt = (double *) malloc(N * M * sizeof(double));
 
 	for(f = 0 ; f < N ; f++)
 	{
@@ -23,7 +24,8 @@ int main(){
 		printf("\n");
 	}
 
-	free(mt);*/
+	free(mt);
+	*/
 
 	//Reservo N elementos para las filas
 	double ** mt = (double **) malloc(sizeof(double *) * N);
